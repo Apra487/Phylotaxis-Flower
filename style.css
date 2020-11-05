@@ -1,15 +1,25 @@
-*, body {
+*,
+body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	overflow: visible;
 	position: relative;
 }
 
-div {
+div#angle {
 	left: 2rem;
 	top: 2rem;
 	color: #ffffff;
-	font-size: 24px;
+	font-size: 2rem;
+}
+
+div#credit {
+	position: absolute;
+	left: 45vw;
+	top: 96vh;
+	color: #ffffff;
+	font-size: 1rem;
 }
 
 #canvas-1 {
@@ -21,38 +31,36 @@ div {
 
 .genearte {
 	position: absolute;
-	top:84vh;
+	top: 84vh;
 	left: 78vw;
-	background:linear-gradient(to bottom, #fcfcfc 5%, #ffffff 100%);
-	background-color:#fcfcfc;
-	border-radius:28px;
-	border:1px solid #000000;
-	display:inline-block;
-	cursor:pointer;
-	color:#000000;
-	font-family:Verdana;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
+	background: linear-gradient(to bottom, #fcfcfc 5%, #ffffff 100%);
+	border-radius: 28px;
+	border: 1px solid #000000;
+	display: inline-block;
+	cursor: pointer;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 17px;
+	padding: 16px 31px;
+	text-decoration: none;
 }
 /* .genearte:active {
 	position: absolute;
 	top:10px;
 	left: 100vw;
 } */
-#golden-angle{
+#golden-angle {
 	position: absolute;
 	top: 84vh;
 	right: 84vw;
-	background:linear-gradient(to bottom, #d8711c 5%, #d8711c 100%);
-	background-color:#4d44ca;
-	border-radius:28px;
-	border:1px solid #000000;
-	display:inline-block;
-	cursor:pointer;
-	color:#000000;
-	font-family:Verdana;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
+	background: linear-gradient(to bottom, #d8711c 5%, #d8711c 100%);
+	border-radius: 28px;
+	border: 1px solid #000000;
+	display: inline-block;
+	cursor: pointer;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 17px;
+	padding: 16px 31px;
+	text-decoration: none;
 }
