@@ -3,11 +3,11 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	overflow: visible;
-	position: relative;
+	overflow: hidden;
 }
 
 div#angle {
+	position: absolute;
 	left: 2rem;
 	top: 2rem;
 	color: #ffffff;
