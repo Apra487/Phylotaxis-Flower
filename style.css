@@ -5,7 +5,52 @@
 	position: relative;
 }
 
+div {
+	left: 2rem;
+	top: 2rem;
+	color: #ffffff;
+	font-size: 24px;
+}
+
 #canvas-1 {
 	position: absolute;
 	background-color: black;
+}
+
+.genearte {
+	position: absolute;
+	top:84vh;
+	left: 78vw;
+	background:linear-gradient(to bottom, #fcfcfc 5%, #ffffff 100%);
+	background-color:#fcfcfc;
+	border-radius:28px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Verdana;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+/* .genearte:active {
+	position: absolute;
+	top:10px;
+	left: 100vw;
+} */
+#golden-angle{
+	position: absolute;
+	top: 84vh;
+	right: 84vw;
+	background:linear-gradient(to bottom, #d8711c 5%, #d8711c 100%);
+	background-color:#4d44ca;
+	border-radius:28px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Verdana;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
 }
