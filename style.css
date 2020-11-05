@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	overflow: visible;
 	position: relative;
 }
 
@@ -9,13 +10,13 @@ div {
 	left: 2rem;
 	top: 2rem;
 	color: #ffffff;
-	font-size: 24px;
+	font-size: 2rem;
 }
 
 #canvas-1 {
 	position: absolute;
 	background-color: black;
-	height: 100vh;
+	height: 100vh; 
 	width: 100vw;
 }
 
@@ -24,7 +25,6 @@ div {
 	top:84vh;
 	left: 78vw;
 	background:linear-gradient(to bottom, #fcfcfc 5%, #ffffff 100%);
-	background-color:#fcfcfc;
 	border-radius:28px;
 	border:1px solid #000000;
 	display:inline-block;
@@ -45,7 +45,6 @@ div {
 	top: 84vh;
 	right: 84vw;
 	background:linear-gradient(to bottom, #d8711c 5%, #d8711c 100%);
-	background-color:#4d44ca;
 	border-radius:28px;
 	border:1px solid #000000;
 	display:inline-block;
